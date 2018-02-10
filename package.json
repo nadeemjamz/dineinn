@@ -1,0 +1,24 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadeemjamz/dineinn.git"
+  },
+  "author": "Nadeem/Sateesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nadeemjamz/dineinn/issues"
+  },
+  "homepage": "https://github.com/nadeemjamz/dineinn#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1"
+  }
+}
