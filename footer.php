@@ -1,43 +1,18 @@
-  <!doctype html>
-<html lang="en">
-  <head>
-    <title>Footer</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <!--styles css-->  
-    <?php include_once "styles.php"; ?>
-    <!--styles css--> 
-  </head>
-  <body style="background-color:#F4F4F4;">
-  
- 
+
+
+<div class="footer">
+    <div class="row" style="background-color:black;">
+        <div class="container">
+         <img src="images/logo.png" alt="" class="img-fluid">
+         <span class="text-center text-white">
+             <p> &copy;2018 DineInn. All Rights Reserved.</p>
+         </span>
+        </div>
+    </div>
+</div>
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <?php include_once "script.php"; ?>
-  </body>
-</html>
