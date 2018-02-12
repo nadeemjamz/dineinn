@@ -1,15 +1,4 @@
-  <!doctype html>
-<html lang="en">
-  <head>
-    <title>Header</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <!--styles css-->  
-    <?php include_once "styles.php"; ?>
-    <!--styles css--> 
-  </head>
-  <body style="background-color:#F4F4F4;">
+ 
  
 
  <nav class="navbar navbar-expand-lg navbar-light bg-danger sticky-top">
@@ -20,7 +9,7 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-     <li class="nav-item dropdown ml-4">
+     <li class="nav-item dropdown ml-3">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#fff;">
           Location
         </a>
@@ -33,7 +22,7 @@
       <input class="form-control mr-sm-2" type="search" placeholder="Area,Location,etc..." aria-label="Search" style="width:600px;">
       <button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
     </form>
-      <li class="nav-item ml-5">
+      <li class="nav-item ml-4">
         <a class="nav-link" href="#" style="color:#fff;">Party Booking <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item ml-4">
@@ -78,6 +67,3 @@
 </div>
 
 
-  <?php include_once "script.php"; ?>
-  </body>
-</html>
