@@ -15,101 +15,26 @@
 
 
   <!-- Start coding from here -->
-    <img src="images/img1.jpeg" alt="" class="img-fluid">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="AF/css/font-awesome.min.css">
 
 
-  
-
-
-
-  </head>
-  <body>
-  
-  
-  
-  
-  <div class="container-fluid">
-  <div  class="jumbotron">
-  
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="13"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="14"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="index-img.jpeg" alt="First slide">
+      <img class="d-block w-100 img-fluid" src="images/index-img2.jpeg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="index-img3.jpeg" alt="Second slide">
+      <img class="d-block w-100 img-fluid" src="images/index-img3.jpeg" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="y3.png" alt="Third slide">
+      <img class="d-block w-100 img-fluid" src="images/index-img4.jpeg" alt="Third slide">
     </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="y4.png" alt="Fourth slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="y5.png" alt="Fifth slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="y6.png" alt="sixth slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="y7.png" alt="Seventh slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="y8.png" alt="Eighth slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="y9.png" alt="Nineth slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="y10.png" alt="Tenth slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="y11.png" alt="Eleventh slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="y12.png" alt="Twelth slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="y13.png" alt="Thirteenth slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="y14.png" alt="Fourteenth slide">
-    </div>
-
   </div>
-</div>
-
-</div>
-</div>
-
-
-
-
-
-  <div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
@@ -118,43 +43,79 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+
+</div>
+
+<div class="container mt-3">
+<div class="row">
+
+  <div class="col-md-4">
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="images/index-img12.jpeg" alt="Card image cap">
+  <div class="card-body">
+    
+  <button type="button" class="btn btn-danger btn-lg btn-block">Food</button>
+  </div>
+</div>
+</div>
+
+    <div class="col-md-4">
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="images/index-img14.jpg" alt="Card image cap">
+  <div class="card-body">
+    
+  <button type="button" class="btn btn-danger btn-lg btn-block">BUFFET</button>
+  </div>
+</div>
+</div>
+
+
+  <div class="col-md-4">
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="images/index-img13.jpeg" alt="Card image cap">
+  <div class="card-body">
+    
+  <button type="button" class="btn btn-danger btn-lg btn-block">ALCOHOL</button>
+  </div>
+</div>
+
+</div>
+</div>
 </div>
 
 
 
+<div class="container mt-5">
+<h3> Our Partners</h3>
+</div>
+
+<div class="container mt-5">
+<div class="row">
+
+  <div class="col-md-4">
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" style="width: 100%; height: 50%" src="images/index-img15.jpg" alt="Card image cap">
+ </div>
+</div>
+    
+
+  <div class="col-md-4">
+  <img style="width: 180px; height: 250px" src="images/index-img16.jpg" >
+</div>
+</div>
+</div>
+</div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-
+  <div class="container mt-5">
+<h3> Popular in Hubli and Dharwad</h3>
+</div>
   
-
-        </div>
-    </div>
-</div>
+ 
 
 
 
-</div>
 
-  
         
        
      
