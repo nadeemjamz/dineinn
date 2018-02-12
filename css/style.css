@@ -1,0 +1,27 @@
+.thumbnail {
+    position: relative;
+}
+
+
+ /* .jumbotron:hover {
+   background-color: dimgrey;
+    }*/
+    .snl {
+      color: white;
+      font-size:36px;
+    }
+    .snl:hover {
+      text-decoration: none;
+      color: black;
+    }
+
+    ul > li > a {
+      font-weight: bold;
+    }
+
+    .col-md-4 > a {  font-weight: bold; 
+      text-decoration: none;
+
+    }
+
+    
