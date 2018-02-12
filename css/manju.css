@@ -7,3 +7,14 @@
   color:red;
   font-size:12px;
 }
+
+
+.manju-box:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.5); 
+}
+
+.manju-box {
+  transition: box-shadow .7s;
+  border-radius:10px;
+  border: 1px solid #ccc;
+  background: #fff;

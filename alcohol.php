@@ -6,17 +6,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <!--styles css-->  
-      <style type="text/css">
-        .box:hover {
-  box-shadow: 0 0 11px rgba(33,33,33,.5); 
-}
-
-.box {
-  transition: box-shadow .7s;
-  border-radius:10px;
-  border: 1px solid #ccc;
-  background: #fff;
-      </style>
     <?php include_once "styles.php"; ?>
 
     <!--styles css--> 
@@ -35,7 +24,7 @@
   <!-- <first row> -->
 <div class="row">
   <div class="col-4">
-    <div class="box">
+    <div class="manju-box">
     <div class="card pb-2 " style="width:23rem;">
       <img class="card-img-top" src="images/img.jpg" alt="Card image cap">
       <div class="card-block">
@@ -59,7 +48,7 @@
           </div>
        </div>
   <div class="col-4">
-    <div class="box">
+    <div class="manju-box">
     <div class="card pb-2 " style="width:23rem;">
       <img class="card-img-top" src="images/img.jpg" alt="Card image cap">
       <div class="card-block">
@@ -83,7 +72,7 @@
           </div>
        </div>
   <div class="col-4">
-    <div class="box">
+    <div class="manju-box">
     <div class="card pb-2 " style="width:23rem;">
       <img class="card-img-top" src="images/img.jpg" alt="Card image cap">
       <div class="card-block">
@@ -112,7 +101,7 @@
 <!-- <second row> -->
   <div class="row">
   <div class="col-4">
-    <div class="box">
+    <div class="manju-box">
     <div class="card pb-2 " style="width:23rem;">
       <img class="card-img-top" src="images/img.jpg" alt="Card image cap">
       <div class="card-block">
@@ -136,7 +125,7 @@
           </div>
        </div>
   <div class="col-4">
-    <div class="box">
+    <div class="manju-box">
     <div class="card pb-2 " style="width:23rem;">
       <img class="card-img-top" src="images/img.jpg" alt="Card image cap">
       <div class="card-block">
@@ -160,7 +149,7 @@
           </div>
        </div>
   <div class="col-4">
-    <div class="box">
+    <div class="manju-box">
     <div class="card pb-2 " style="width:23rem;">
       <img class="card-img-top" src="images/img.jpg" alt="Card image cap">
       <div class="card-block">
