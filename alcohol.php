@@ -126,7 +126,7 @@
        </div>
   <div class="col-4">
     <div class="manju-box">
-    <div class="card pb-2 " style="width:23rem;">
+    <div class="card pb-2" style="width:23rem;">
       <img class="card-img-top" src="images/img.jpg" alt="Card image cap">
       <div class="card-block">
         <div class="row ml-1">
@@ -173,7 +173,7 @@
           </div>
        </div>
 
-</div>
+</div><br><br>
 
 
   <!-- End coding from here -->
