@@ -189,9 +189,9 @@ p{
   <!--   <div class="jumbotron" style=" height:1px; background-color:red; position: absolute; overflow-wrap: normal; margin-left: 440px; margin-bottom: 60px;">
   4.6   
 </div> -->
-    <p class="card-text"><a href=""><font color="gray"> Race Course Road,</font></a><a href=""><font color="gray"> West Bangalore</font></a></p>
+    <p class="card-text"><a href=""><font color="gray"> Race Course Road,</font></a><a href="#"><font color="gray"> West Bangalore</font></a></p>
     <p class="card-text"><font color="gray"> Cost for two :</font>1500<font color="gray">(approx)|</font><a href="#"><font color="black"> view menu</font></a></p>
-       <p class="card-text"><font color="gray"> Cuisine :</font><a href=""> Chinese</a>,<a href=""> Continental</a>,<a href=""> Modern Indian</a>,<a href=""> North Indian</a>,<a href=""> Pizza</a></p>
+       <p class="card-text"><font color="gray"> Cuisine :</font><a href="#"> Chinese</a>,<a href=""> Continental</a>,<a href=""> Modern Indian</a>,<a href=""> North Indian</a>,<a href=""> Pizza</a></p>
   <!--      <button class="btn-success" style="height: 22px;">UPLOAD BILL</button><input type="text" name="" placeholder="Additional 20% off on uploading your bill via Dineout app (upto Rs. 200)" readonly="" style="width: 400px; height: 22px;"/> -->
      <div style="background-color: green; font-size: 13px; margin-bottom: 15px;">UPLOAD BILL<font color="white">  Additional 20% off on uploading your bill via Dineout app (upto Rs. 200)</font></div>
         

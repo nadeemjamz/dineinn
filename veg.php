@@ -7,10 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <!--styles css-->  
     <?php include_once "styles.php"; ?>
-
-
-
-
+    <!--styles css--> 
     <style type="text/css">
       .card {
     box-shadow: 0px 0px 0px grey;
@@ -30,7 +27,6 @@ p{
 
 
 
-
 * {
   box-sizing: border-box;
 }
@@ -41,11 +37,7 @@ p{
   background-repeat: no-repeat;
   width: 100%;
   font-size: 16px;
-
-  padding: 12px 20px 12px 40px;
-
 /*  padding: 12px 20px 12px 40px;*/
-
   border: 1px solid #ddd;
   margin-bottom: 12px;
 }
@@ -58,10 +50,7 @@ p{
 
 #myUL li a {
   border: 1px solid #ddd;
-
-
   margin-top: -1px; / Prevent double borders /
-
   background-color: #f6f6f6;
   padding: 12px;
   text-decoration: none;
@@ -76,22 +65,7 @@ p{
 
 
 
-
-.col-md-3 a:hover
-{
-   text-decoration: none;
-}
-
-p,h1,h2,h3,h4,h5,h6
-{
-  color: grey;
-}
-
-</style>
-
-
     </style>
-
   </head>
   <body style="background-color:#F4F4F4;">
   <!--navbar-->
@@ -100,21 +74,14 @@ p,h1,h2,h3,h4,h5,h6
 
   <!-- Start coding from here -->
 
-        <div class="col-md-1"></div>
-         <div class="col-md-10">
-  <div class="container-fliud">
-      <div class="row">
-           <div class="row">
-             <div class="col-md-3" style="background-color: white;"><h6>Quick Filters</h6>
-
 <div class="container" >
 <!--   <div class="row" style="background-image: url('images/ccc.jpeg');">
   </div> -->
+  <h1>Veg restaurants </h1>
   <div class="row">
     <div class="col-lg-3">
       <div class="jumbotron" style="background-color: #DCDCDC; margin-top: 39px; height: 1000px;" >
         <h6>Quick Filters</h6>
-
 
     <h6>Localities & Area</h6>
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name" style="height: 35px;">
@@ -180,21 +147,6 @@ p,h1,h2,h3,h4,h5,h6
       </div>
     </div>
   </div>
-<<<<<<< HEAD
-  
-</div>
-
-             </div>
-              <div class="col-md-9">Best Pure Veg Restaurants </div>
-           </div>
-         </div>
-          <div class="col-md-1"></div>
-      </div>
-    </div>
-
-
-
-
 
       </div>
     </div>
@@ -235,9 +187,9 @@ p,h1,h2,h3,h4,h5,h6
   <!--   <div class="jumbotron" style=" height:1px; background-color:red; position: absolute; overflow-wrap: normal; margin-left: 440px; margin-bottom: 60px;">
   4.6   
 </div> -->
-    <p class="card-text"><a href=""><font color="gray"> Race Course Road,</font></a><a href=""><font color="gray"> West Bangalore</font></a></p>
+    <p class="card-text"><a href=""><font color="gray"> Race Course Road,</font></a><a href="#"><font color="gray"> West Bangalore</font></a></p>
     <p class="card-text"><font color="gray"> Cost for two :</font>1500<font color="gray">(approx)|</font><a href="#"><font color="black"> view menu</font></a></p>
-       <p class="card-text"><font color="gray"> Cuisine :</font><a href=""> Chinese</a>,<a href=""> Continental</a>,<a href=""> Modern Indian</a>,<a href=""> North Indian</a>,<a href=""> Pizza</a></p>
+       <p class="card-text"><font color="gray"> Cuisine :</font><a href="#"> Chinese</a>,<a href=""> Continental</a>,<a href=""> Modern Indian</a>,<a href=""> North Indian</a>,<a href=""> Pizza</a></p>
   <!--      <button class="btn-success" style="height: 22px;">UPLOAD BILL</button><input type="text" name="" placeholder="Additional 20% off on uploading your bill via Dineout app (upto Rs. 200)" readonly="" style="width: 400px; height: 22px;"/> -->
      <div style="background-color: green; font-size: 13px; margin-bottom: 15px;">UPLOAD BILL<font color="white">  Additional 20% off on uploading your bill via Dineout app (upto Rs. 200)</font></div>
         
@@ -333,7 +285,6 @@ p,h1,h2,h3,h4,h5,h6
 </div>
 </div>
 
-
 <script>
 function myFunction() {
     var input, filter, ul, li, a, i;
@@ -358,7 +309,6 @@ var modal = document.getElementById('myModal');
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
 
-
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
@@ -372,27 +322,6 @@ span.onclick = function() {
     modal.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-
-
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-}
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
