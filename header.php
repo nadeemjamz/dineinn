@@ -63,10 +63,17 @@
 
                     </div>
                     <div class="modal-footer">
+                      <div class="container text-center">
                         <button class="btn btn-danger btn-block">Continue</button>
+                        <hr>
+                    <h5>Or login via </h5>
+                    <hr>
+                    <button class="btn btn-primary btn-inline-block mx-3">  <i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</button>
+                    <button class="btn btn-danger btn-inline-block mx-3"> <i class="fa fa-google" aria-hidden="true"></i> Sign in</button>
                     </div>
-                    <h6 class="double background"> <span>Or login via</span> </h6>
-                </div>
+                    </div>
+                    </div>
+
             </div>
 </div>
 
