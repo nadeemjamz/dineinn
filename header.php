@@ -1,11 +1,13 @@
- 
+
  
 
  <nav class="navbar navbar-expand-lg navbar-light bg-danger sticky-top">
-  <a class="navbar-brand" href="#" style="color:#fff;"><img src="images/logo.png" class="img-fluid"> </a>
+  <a class="navbar-brand" href="#" style="color:#fff;"><img src="images/dineinn8.png" class="img-fluid p-o m-0"> </a>
+<!--   <h4 class="mr-5">DineInn</h4> -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
@@ -41,7 +43,7 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="contactModalTitle">
-                            Login
+                            Login / Sign Up
                         </h5>
                         <button class="close" data-dismiss="modal">
                             <span>&times;</span>
@@ -50,18 +52,20 @@
                     <div class="modal-body">
                         <form>
                             <div class="form-group">
-                                <label for="name">Login ID</label>
+                                <label for="name">Mobile No. / Email ID</label>
                                 <input type="text" class="text form-control">
                             </div>
-                            <div class="form-group">
+                            <!-- <div class="form-group">
                                 <label for="email">Password</label>
                                 <input type="password" class="text form-control">
-                            </div>
+                            </div> -->
                         </form>
+
                     </div>
                     <div class="modal-footer">
-                        <button class="btn btn-danger btn-block">Submit</button>
+                        <button class="btn btn-danger btn-block">Continue</button>
                     </div>
+                    <h6 class="double background"> <span>Or login via</span> </h6>
                 </div>
             </div>
 </div>
