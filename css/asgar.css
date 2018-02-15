@@ -1,4 +1,6 @@
-#myImg {
+/*here pop op*/
+
+#ad-myImg {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
@@ -62,10 +64,10 @@
 /* The Close Button */
 .ad-close {
     position: absolute;
-    top: 15px;
+    top:100px;
     right: 35px;
     color: #f1f1f1;
-    font-size: 40px;
+    font-size:40px;
     font-weight: bold;
     transition: 0.3s;
 }
@@ -83,6 +85,84 @@
         width: 100%;
     }
 }
+     /*end here*/
+
+/*here anoter pop op*/
+
+#ad1-myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#ad1-myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.ad1-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.ad1-modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#ad1-caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.ad1-modal-content, #ad1-caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+
+/* The Close Button */
+.ad1-close {
+    position: absolute;
+    top: 80px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.ad1-close:hover,
+.ad1-close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+/*end here*/
 #ad-wrap
 {
     border-radius: 4px;
@@ -92,3 +172,252 @@
     border: 1px solid #dcdcdc;
     margin-top: 30px;
 }
+
+
+
+
+.ad-example {
+    background-color: #f1f1f1;
+    padding: 0px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+ .ad-box {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.ad-box {
+    width: auto;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-left: 2px solid green;
+    word-wrap: break-word;
+}
+.ad-margin-bottom {
+    margin-bottom: 16px;
+    }
+    .ad-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 3px 2px 1px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    color: #fa5757;
+   /* border-right: 3px solid red;*/
+    border-bottom: 2px solid #fa5757;
+
+}
+
+ .ad-w3-btn
+ {   
+
+    display: inline-block;
+    padding: 3px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    cursor: pointer;
+    font-style: bold;
+    border: 2px solid green;
+    border-radius: 15px;
+    padding-left: 3px;
+    color: #000000;
+
+
+
+   /* border-right: 3px solid red;*/
+    
+
+}
+
+/* in box  content style*/
+.ad-deal-wrap .ad-deal-title {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #212121;
+    padding: 0;
+}
+
+
+.ad-txt-link {
+    color: #2B98F7;
+}
+.ad-fs12 {
+    font-size: 12px;
+}
+ .ad-book-fee-txt {
+    margin-top: 5px;
+    color: #a0a0a0;
+    font-size: 12px;
+    font-family: roboto-reg;
+    }
+    .ad-txt-grey-alt {
+    color: #a0a0a0;
+    position: relative;
+    font-size: 12px;
+    color: #757575;
+    margin-right: 5px;
+    display: inline-block;
+    
+    
+}
+
+/*image zoom in css*/    
+a.lightbox img {
+height: 150px;
+border: 3px solid white;
+box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+margin: 94px 20px 20px 20px;
+}
+
+/* Styles the lightbox, removes it from sight and adds the fade-in transition */
+
+.lightbox-target {
+position: fixed;
+top: -100%;
+width: 100%;
+background: rgba(0,0,0,.7);
+width: 100%;
+opacity: 0;
+-webkit-transition: opacity .5s ease-in-out;
+-moz-transition: opacity .5s ease-in-out;
+-o-transition: opacity .5s ease-in-out;
+transition: opacity .5s ease-in-out;
+overflow: hidden;
+}
+
+/* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
+
+.lightbox-target img {
+margin: auto;
+position: absolute;
+top: 0;
+left:0;
+right:0;
+bottom: 0;
+max-height: 0%;
+max-width: 0%;
+border: 3px solid white;
+box-shadow: 0px 0px 8px rgba(0,0,0,.3);
+box-sizing: border-box;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
+
+/* Styles the close link, adds the slide down transition */
+
+a.lightbox-close {
+display: block;
+width:50px;
+height:50px;
+box-sizing: border-box;
+background: white;
+color: black;
+text-decoration: none;
+position: absolute;
+top: -80px;
+right: 0;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:before {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+-o-transform:rotate(45deg);
+transform:rotate(45deg);
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:after {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(-45deg);
+-moz-transform:rotate(-45deg);
+-o-transform:rotate(-45deg);
+transform:rotate(-45deg);
+}
+
+/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
+
+.lightbox-target:target {
+opacity: 1;
+top: 0;
+bottom: 0;
+}
+
+.lightbox-target:target img {
+max-height: 100%;
+max-width: 100%;
+}
+
+.lightbox-target:target a.lightbox-close {
+top: 0px;
+}
+
+/*images hover */
+ .ad-zoom {
+    
+    transition: transform 1s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.ad-zoom:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5); 
+}
+
+/*close here*/
+/*here form code*/
+
+.ad-hotel_reserve_box {
+    margin-top: 30px;
+  /* margin-left: 350px;
+    margin-right: 350px;*/
+    /*margin-left:0px;
+    margin-right: 0px;*/
+    padding: 30px 5px;
+    background-color: #e0e0eb;
+    box-shadow: 3px 5px 10px #7527b0;
+
+
+}
+
+
+
+/*here end*/
