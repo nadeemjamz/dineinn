@@ -76,7 +76,7 @@ p{
 <div class="container" >
 <!--   <div class="row" style="background-image: url('images/ccc.jpeg');">
   </div> -->
-  <h1> Non-Veg </h1>
+<!--   <h1> Non-Veg </h1> -->
   <div class="row">
     <div class="col-lg-3">
       <div class="jumbotron" style="background-color: #DCDCDC; margin-top: 39px; height: 1000px;" >
