@@ -3,5 +3,5 @@
 
  <!-- Add your external css -->
  
-<link href="css/style.css" type="text/css">
+
 <link rel="stylesheet" href="css/asgar.css" type="text/css">
