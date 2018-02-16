@@ -10,11 +10,11 @@
 
 
 .manju-box:hover {
-  box-shadow: 11px 11px 11px 11px rgba(33,33,33,.5); 
+  box-shadow: 11px 11px 11px 11px  rgba(33,33,33,.5); 
 }
 
 .manju-box {
-  transition: box-shadow .7s;
+  transition: box-shadow .3s;
   border-radius:10px;
   border: 1px solid #ccc;
   background: #fff;

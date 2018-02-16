@@ -9,6 +9,11 @@
     <?php include_once "styles.php"; ?>
 
     <!--styles css--> 
+    <style type="text/css">
+      .image:hover{
+
+      }
+    </style>
   </head>
   <body style="background-color:#F4F4F4;">
   <!--navbar-->
@@ -19,11 +24,12 @@
   <span>
    <a href="#" style="text-decoration:none;color:black;"><b> Home  <i class="fa fa-caret-right"></i></b></a> 
    <a href="#" style="text-decoration:none;color:black;"><b> Hubli  <i class="fa fa-caret-right"></i></b></a>
-   <a href="#" style="text-decoration:none;color:black;"><b> Panjurli Hotel</b></a><br><br>
+   <a href="#" style="text-decoration:none;color:black;"><b> Bar & Restaurant <i class="fa fa-caret-right"></i>
+   </b></a><span>50% of Alcohol</span>  <br><br>
   </span>
   <!-- <first row> -->
 <div class="row">
-  <div class="col-4">
+  <div class="col-lg-4 col-sm-4 col-md-4 col-xl-4">
     <div class="manju-box">
     <div class="card pb-2 " style="width:23rem;">
       <img class="card-img-top" src="images/img.jpg" alt="Card image cap">
@@ -47,7 +53,7 @@
           </div>
           </div>
        </div>
-  <div class="col-4">
+  <div class="col-lg-4 col-sm-4 col-md-4 col-xl-4">
     <div class="manju-box">
     <div class="card pb-2 " style="width:23rem;">
       <img class="card-img-top" src="images/img.jpg" alt="Card image cap">
@@ -71,7 +77,7 @@
           </div>
           </div>
        </div>
-  <div class="col-4">
+  <div class="col-lg-4 col-sm-4 col-md-4 col-xl-4">
     <div class="manju-box">
     <div class="card pb-2 " style="width:23rem;">
       <img class="card-img-top" src="images/img.jpg" alt="Card image cap">
@@ -100,7 +106,7 @@
 
 <!-- <second row> -->
   <div class="row">
-  <div class="col-4">
+  <div class="col-lg-4 col-sm-4 col-md-4 col-xl-4">
     <div class="manju-box">
     <div class="card pb-2 " style="width:23rem;">
       <img class="card-img-top" src="images/img.jpg" alt="Card image cap">
@@ -124,7 +130,7 @@
           </div>
           </div>
        </div>
-  <div class="col-4">
+  <div class="col-lg-4 col-sm-4 col-md-4 col-xl-4">
     <div class="manju-box">
     <div class="card pb-2" style="width:23rem;">
       <img class="card-img-top" src="images/img.jpg" alt="Card image cap">
@@ -148,7 +154,7 @@
           </div>
           </div>
        </div>
-  <div class="col-4">
+  <div class="col-lg-4 col-sm-4 col-md-4 col-xl-4">
     <div class="manju-box">
     <div class="card pb-2 " style="width:23rem;">
       <img class="card-img-top" src="images/img.jpg" alt="Card image cap">
@@ -173,9 +179,9 @@
           </div>
        </div>
 
-</div><br><br>
+</div>
 
-
+      
   <!-- End coding from here -->
   </div>
   <!--footer-->
