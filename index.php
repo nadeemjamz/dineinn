@@ -18,6 +18,7 @@
   <!-- Start coding from here -->
 
 
+<div class="container-fluid">
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -53,19 +54,21 @@
     <span class="sr-only">Next</span>
   </a>
 
-</div>
 
+        <div class="content text-center col-lg-12 d-none d-lg-block">
+       <h3>BEST DEALS FOR BETTER EXPERIENCES</h3>
+    <p>Quintessentially Indian in its fabric, recognized for delivering a unique flavour and tradition of hospitality in a refreshingly modern way to create unique experiences and lifelong memories.</p>
 
-
-
-<div class="container ">
-  <div class="content">
-    <CENTER>
-    <h1 >BEST DEALS FOR BETTER EXPERIENCES</h1><br>
-    <p >Quintessentially Indian in its fabric, recognized for delivering a unique flavour and tradition of hospitality in a refreshingly modern way to create unique experiences and lifelong memories.</p>
-    </CENTER>  
+  </div>
   </div>
 </div>
+
+
+
+
+
+  
+
  
 
 
@@ -79,7 +82,7 @@
   </div>
   <div class="card-body">
     
-  <button type="button" class="btn btn-danger btn-lg btn-block">VEGETERIAN</button>
+      <a href="#" style="text-decoration: none;"><button type="button" class="btn btn-danger btn-lg btn-block">VEGETERIAN</button></a>
   </div>
 </div>
 </div>
@@ -91,7 +94,7 @@
   </div>
   <div class="card-body">
     
-  <button type="button" class="btn btn-danger btn-lg btn-block">NON VEGETERIAN</button>
+      <a href="#" style="text-decoration: none;"><button type="button" class="btn btn-danger btn-lg btn-block">VEG / NON-VEG</button></a>
   </div>
 </div>
 </div>
@@ -103,7 +106,7 @@
 </div>
   <div class="card-body">
     
-  <button type="button" class="btn btn-danger btn-lg btn-block">BUFFET</button>
+      <a href="buffet.php" style="text-decoration: none;"><button type="button" class="btn btn-danger btn-lg btn-block">BUFFET</button></a>
   </div>
 </div>
 </div>
@@ -116,7 +119,7 @@
 </div>
   <div class="card-body">
     
-  <button type="button" class="btn btn-danger btn-lg btn-block">ALCOHOL</button>
+      <a href="bar.php" style="text-decoration: none;"><button type="button" class="btn btn-danger btn-lg btn-block">LOUNGE / BAR</button></a>
   </div>
 </div>
 
@@ -147,14 +150,14 @@
 </div>
 </div>
 </div>
-</div>
 
 
-  <div class="container mt-5">
+
+  <div class="container mt-5 text-center">
 <h3> Popular in Hubli and Dharwad</h3>
 </div>
 
-<div class="container mt-5" >
+<div class="container my-5" >
 
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
@@ -250,8 +253,8 @@
     </div>
   </div>
 
-<div class="card zoom">
-    <img class="card-img-top " style="height: 190px" src="images/index-img28.jpg" alt="Card image cap">
+<div class="card">
+    <img class="card-img-top zoom" style="height: 190px" src="images/index-img28.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Akshay Inn</h5>
      </div>
@@ -274,18 +277,6 @@
 
 
  
-
-
-
-
-        
-       
-     
-   
-
-
-
-
 
   <!-- End coding from here -->
   <!--footer-->
