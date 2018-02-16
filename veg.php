@@ -75,7 +75,7 @@ p{
   <!-- Start coding from here -->
 
 <div class="container" >
-<!--   <div class="row" style="background-image: url('images/ccc.jpeg');">
+  <!--   <div class="row" style="background-image: url('images/ccc.jpeg');">
   </div> -->
   <h1>Veg restaurants </h1>
   <div class="row">
@@ -147,6 +147,9 @@ p{
       </div>
     </div>
   </div>
+
+
+  
 
       </div>
     </div>
