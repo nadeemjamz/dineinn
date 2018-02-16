@@ -1,71 +1,11 @@
-/*.thumbnail {
-    position: relative;
-}
-*/
-
- /* .jumbotron:hover {
-   background-color: dimgrey;
-    }*/
-   
-
-   /* }
-
-    .container {
-    position: relative;
-    max-width: 1100px;
-    
-}
-
-*/
-
-/*.container .content {
-    position: absolute;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);  Black background with transparency 
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-}
-*/
-                                     /*login*/
-/*h6 {
-    text-align: center;
-    }
-
-h6.background {
-               position: relative;
-       span { 
-        background: #ff0000; 
-        padding: 0 15px; 
-            }
-          }
-
-h6.double:after {
-           border-bottom: 1px solid black;
-        content: "";
-        position: absolute;
-        top: 45%; left: 0; right: 0;
-        z-index: -1;
-          }*/
-
-
-
-.container {
-    position: relative;
-    max-width: 1100px;
-    
-}
-
-
-
-.container .content {
+.content {
     position: absolute;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
     color: #f1f1f1;
     width: 100%;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 10px;
+    border-radius: 5px;
 }
 .image:hover {
   opacity: 0.8;

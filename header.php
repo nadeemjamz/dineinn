@@ -2,7 +2,7 @@
  
 
  <nav class="navbar navbar-expand-lg navbar-light bg-danger sticky-top">
-  <a class="navbar-brand" href="#" style="color:#fff;"><img src="images/dineinn8.png" class="img-fluid p-o m-0"> </a>
+  <a class="navbar-brand" href="index.php" style="color:#fff;"><img src="images/dineinn8.png" class="img-fluid p-o m-0"> </a>
 <!--   <h4 class="mr-5">DineInn</h4> -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -20,8 +20,8 @@
             <a class="dropdown-item" href="#">Hubli</a>
         </div>
       </li>
-      <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Area,Location,etc..." aria-label="Search" style="width:600px;">
+      <form class="form-inline my-2 my-lg-0 ml-3">
+      <input class="form-control mr-sm-2" type="search" placeholder="Area,Location,etc..." aria-label="Search" style="width:100; display:inline-block">
       <button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
     </form>
       <li class="nav-item ml-4">
