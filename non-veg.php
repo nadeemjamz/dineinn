@@ -78,11 +78,17 @@ p{
   </div> -->
 <!--   <h1> Non-Veg </h1> -->
   <div class="row">
-    <div class="col-lg-3">
+    <div class="col-lg-3 col-md-3 col-sm-6">
       <div class="jumbotron" style="background-color: #DCDCDC; margin-top: 39px; height: 1000px;" >
-        <h6>Quick Filters</h6>
-
-    <h6>Localities & Area</h6>
+        <h4>Quick Filters</h4>
+        <input type="Search" name="" placeholder="Search"><br>
+        <input type="checkbox" name="">50% OFF Food<br>
+        <input type="checkbox" name="">50% OFF Alchohol<br>
+        <input type="checkbox" name="">50% OFF Buffet<br>
+        <input type="checkbox" name=""> Bill Upload
+        <a href="#"><h5>show more</h5></a>
+        <hr>
+    <h4>Localities & Area</h4>
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name" style="height: 35px;">
 
 <ul id="myUL" style="line-height: 10px;">
@@ -95,6 +101,15 @@ p{
 <li><a href="#" data-toggle="modal" data-target="#myModal" style="color: blue;">Show More...</a></li>
  
 </ul>
+<hr>
+
+  <h4>Tags</h4>
+  <input type="Search" name="" placeholder="Search"><br>
+        <input type="checkbox" name="">Pure Veg<br>
+        <input type="checkbox" name="">Breakfast<br>
+        <input type="checkbox" name="">Casual Dining<br>
+        <input type="checkbox" name="">Bill Upload
+        <a href="#"><h5>show more</h5></a>
 
 <div class="container">
   <!-- The Modal -->
@@ -151,8 +166,8 @@ p{
     </div>
   </div>
      
-    <div class="col-lg-9" style="margin-top: 40px;">
-     <div class="row" style="width: 52.5rem; height: 213px; background-image: url('images/ppp.png'); border-radius: 4px;">
+    <div class="col-lg-9 col-md-9 col-sm-6" style="margin-top: 40px;">
+     <div class="row" style="width: 51.5rem; height: 213px; background-image: url('images/ppp.png'); border-radius: 4px;">
       <div class="btn btn-danger" style="height: 40px; margin-top: 85px; margin-left: 70px;">Know more</div>
       <footer style="background-color: red; height: 35px; margin-top: 55px;" class="form-control text-white text-center">Get 100% cashback on booking fee powered by @altaf</footer>
       </div><br>
@@ -179,7 +194,7 @@ p{
     <span class="sr-only">Next</span>
   </a>
 </div>    
-    <div class="card" style="width: 35rem; height: 213px;">
+    <div class="card" style="width: 34rem; height: 213px;">
   
   <div class="card-body">
     <h5 class="card-title">The London Curry House</h5>
@@ -225,7 +240,7 @@ p{
     <span class="sr-only">Next</span>
   </a>
 </div>    
-    <div class="card" style="width: 35rem; height: 213px;">
+    <div class="card" style="width: 34rem; height: 213px;">
   
   <div class="card-body">
     <h5 class="card-title">The London Curry House</h5>
@@ -265,7 +280,7 @@ p{
     <span class="sr-only">Next</span>
   </a>
 </div>    
-<div class="card" style="width: 35rem; height: 213px;">
+<div class="card" style="width: 34rem; height: 213px;">
   
   <div class="card-body">
     <h5 class="card-title">The London Curry House</h5>
