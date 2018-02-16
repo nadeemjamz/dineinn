@@ -2,6 +2,5 @@
  <link  href="node_modules/font-awesome/css/font-awesome.min.css" rel ="stylesheet" type="text/css">
 
  <!-- Add your external css -->
- 
-<link href="css/style.css" type="text/css">
 <link rel="stylesheet" href="css/manju.css" type="text/css">
+
