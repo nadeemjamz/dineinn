@@ -13,14 +13,13 @@
   <!--navbar-->
   <?php include_once "header.php"; ?>
 
-   <div class="container">
+   <div class="container my-5">
   <!-- Start coding from here -->
 
  
     <div class="row">
       <!-- main right -->
       <div class="col-md-9">
-        this is left
         <div class="container">
           <div class="row">
             <div class="col-md-6">
@@ -99,13 +98,13 @@
         </div>
         <div class="container">
         <div class="w-100 " style="background-color:  #e6e6e6;">
-        <button type="button" class="btn btn-outline-secondary p-2">#GIRF</button>
+        <button type="button" class="btn btn-success p-2">#GIRF</button>
          <span class="pl-2">Get 50% off on Buffet. 1st - 28th Feb</span>
        </div>
        <br>
   
       <div class="w-100" style="background-color:  #e6e6e6;">
-       <button type="button" class="btn btn-outline-secondary p-2 pl-0">SmartPay</button>
+       <button type="button" class="btn btn-success p-2 pl-0">SmartPay</button>
        <a href="#">pay your restaurant bill with the app and get 20% cashback on your account</a>
       </div>
      </div>
@@ -577,8 +576,6 @@
 
    
       <div class="col-3">
-        this is right
-
             <!-- here forms  -->
                  <div class="ad-hotel_reserve_box fixed">
          <h5> Hotel Reservation Form </h5><br>

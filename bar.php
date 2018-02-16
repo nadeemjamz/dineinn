@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Alcohol</title>
+    <title>LOUNGE / BAR</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -102,10 +102,10 @@
           </div>
        </div>
 
-</div><br><br>
+</div>
 
 <!-- <second row> -->
-  <div class="row">
+  <div class="row my-5">
   <div class="col-lg-4 col-sm-4 col-md-4 col-xl-4">
     <div class="manju-box">
     <div class="card pb-2 " style="width:23rem;">

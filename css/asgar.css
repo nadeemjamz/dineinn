@@ -405,12 +405,7 @@ top: 0px;
 /*close here*/
 /*here form code*/
 
-.ad-hotel_reserve_box {
-    margin-top: 30px;
-  /* margin-left: 350px;
-    margin-right: 350px;*/
-    /*margin-left:0px;
-    margin-right: 0px;*/
+.ad-hotel_reserve_box {    
     padding: 30px 5px;
     background-color: #e0e0eb;
     box-shadow: 3px 5px 10px #7527b0;
