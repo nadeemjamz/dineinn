@@ -81,11 +81,13 @@ p{
     <div class="col-lg-3 col-md-3 col-sm-6">
       <div class="jumbotron" style="background-color: #DCDCDC; margin-top: 39px; height: 1000px;" >
         <h4>Quick Filters</h4>
+        <input type="Search" name="" placeholder="Search"><br>
         <input type="checkbox" name="">50% OFF Food<br>
         <input type="checkbox" name="">50% OFF Alchohol<br>
         <input type="checkbox" name="">50% OFF Buffet<br>
-        <input type="checkbox" name="">
-
+        <input type="checkbox" name=""> Bill Upload
+        <a href="#"><h5>show more</h5></a>
+        <hr>
     <h4>Localities & Area</h4>
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name" style="height: 35px;">
 
@@ -99,6 +101,15 @@ p{
 <li><a href="#" data-toggle="modal" data-target="#myModal" style="color: blue;">Show More...</a></li>
  
 </ul>
+<hr>
+
+  <h4>Tags</h4>
+  <input type="Search" name="" placeholder="Search"><br>
+        <input type="checkbox" name="">Pure Veg<br>
+        <input type="checkbox" name="">Breakfast<br>
+        <input type="checkbox" name="">Casual Dining<br>
+        <input type="checkbox" name="">Bill Upload
+        <a href="#"><h5>show more</h5></a>
 
 <div class="container">
   <!-- The Modal -->
