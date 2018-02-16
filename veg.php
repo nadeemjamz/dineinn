@@ -108,7 +108,7 @@ p{
           <h6 class="modal-title">Localities & Area</h6>
 
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name" style="height: 30px; width: 70%; margin-left: 20px;">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         
         <!-- Modal body -->
@@ -183,7 +183,7 @@ p{
     <span class="sr-only">Next</span>
   </a>
 </div>    
-    <div class="card" style="width: 35rem; height: 213px;">
+    <div class="card" style="width: 34rem; height: 213px;">
   
   <div class="card-body">
     <h5 class="card-title">The London Curry House</h5>
@@ -229,7 +229,7 @@ p{
     <span class="sr-only">Next</span>
   </a>
 </div>    
-    <div class="card" style="width: 35rem; height: 213px;">
+    <div class="card" style="width: 34rem; height: 213px;">
   
   <div class="card-body">
     <h5 class="card-title">The London Curry House</h5>
@@ -269,7 +269,7 @@ p{
     <span class="sr-only">Next</span>
   </a>
 </div>    
-<div class="card" style="width: 35rem; height: 213px;">
+<div class="card" style="width: 34rem; height: 213px;">
   
   <div class="card-body">
     <h5 class="card-title">The London Curry House</h5>
@@ -283,7 +283,7 @@ p{
         </div>       
   </div>
 </div>
-  </div>
+  < /div>
 </div>
 </div>
 </div>
