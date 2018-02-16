@@ -55,8 +55,8 @@
             </div>
             <div class="col-md-6">
               <!-- here content -->
-              <div class="title"><span style="font-weight: bold;columns: solid black;font-size: 20px;">Flechazo</span></div>
-              <a href="#">Marathahalli, East Bangalore</a>
+              <div class="title"><span style="font-weight: bold;columns: solid black;font-size: 20px;">The President Hotel</span></div>
+              <a href="#">Hubli</a>
               <h5 Pt-2px>Rs:1300 <span style="color:gray; font-size: 15px;"> for two (approx.)</span></h5>
                 <a href="#">North Indian, Mediterranean, Asian</a>
                
@@ -69,7 +69,7 @@
             <!-- close drop down -->
 
             <!-- img pop  -->
-            <img class="img-fluid pb-2" id="ad-myImg" src="https://images.pexels.com/photos/859933/pexels-photo-859933.jpeg?h=350&auto=compress&cs=tinysrgb" alt="Trolltunga, Norway" width="150">
+            <img class="img-fluid pb-2" id="ad-myImg" src="images/the5.jpg" alt="Naveen Hotel,Hubli" width="150px">
 
 
 <!-- The Modal -->
@@ -80,7 +80,7 @@
 </div>
             <!-- close pop -->            
 <!-- another img pop -->
-  <img class="img-fluid pb-2 " id="ad1-myImg1" src="images/index-img6.jpeg" alt="Trolltunga, Norway" width="150px">
+  <img class="img-fluid pb-2 " id="ad1-myImg1" src="images/index-img6.jpeg" alt="The President Hotel,Hubli" width="150px">
 
 <!-- The Modal -->
 <div id="other_img" class="ad1-modal">
@@ -402,21 +402,21 @@
     </div>
   
    <div class="card" style="overflow: hidden;">
-    <img class="card-img-top ad-zoom img-fluid" src="images/index-img6.jpeg" alt="Card image cap">
+    <img class="card-img-top ad-zoom img-fluid" src="images/the5.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Ananth Residency</h5>
      </div>
   </div>
 
   <div class="card" style="overflow: hidden;">
-    <img class="card-img-top ad-zoom img-fluid" src="images/index-img6.jpeg" alt="Card image cap">
+    <img class="card-img-top ad-zoom img-fluid" src="images/the4.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Ananth Residency</h5>
      </div>
   </div>
 
 <div class="card" style="overflow: hidden;">
-    <img class="card-img-top ad-zoom img-fluid"  src="images/index-img6.jpeg" alt="Card image cap">
+    <img class="card-img-top ad-zoom img-fluid"  src="images/the3.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Hotel Naveen</h5>
      </div>
@@ -427,28 +427,28 @@
     <div class="carousel-item">
 <div class="card-deck">
   <div class="card" style="overflow: hidden;">
-    <img class="card-img-top ad-zoom img-fluid" style="height: 190px" src="images/index-img6.jpeg" alt="Card image cap">
+    <img class="card-img-top ad-zoom img-fluid" style="height: 190px" src="images/the6.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">The Hans Hotel</h5>
    
     </div>
   </div>
   <div class="card" style="overflow: hidden;">
-    <img class="card-img-top ad-zoom img-fluid" style="height: 190px" src="images/index-img6.jpeg" alt="Card image cap">
+    <img class="card-img-top ad-zoom img-fluid" style="height: 190px" src="images/the8.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Clarks Inn</h5>
 
     </div>
   </div>
   <div class="card" style="overflow: hidden;">
-    <img class="card-img-top ad-zoom img-fluid" style="height: 190px" src="images/index-img6.jpeg" alt="Card image cap">
+    <img class="card-img-top ad-zoom img-fluid" style="height: 190px" src="images/the10.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">The President Hotel</h5>
      </div>
   </div>
 
 <div class="card" style="overflow: hidden;">
-    <img class="card-img-top ad-zoom img-fluid" style="height: 190px" src="images/index-img6.jpeg" alt="Card image cap">
+    <img class="card-img-top ad-zoom img-fluid" style="height: 190px" src="images/the11.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Parkview Inn</h5>
      </div>
@@ -459,32 +459,33 @@
     <div class="carousel-item">
      <div class="card-deck">
   <div class="card" style="overflow: hidden;">
-    <img class="card-img-top ad-zoom img-fluid" style="height: 190px" src="images/index-img6.jpeg" alt="Card image cap">
+    <img class="card-img-top ad-zoom img-fluid" style="height: 190px" src="images/the12.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Mandar Regency</h5>
    
     </div>
   </div>
   <div class="card" style="overflow: hidden;">
-    <img class="card-img-top ad-zoom img-fluid" style="height: 190px" src="images/index-img6.jpeg" alt="Card image cap">
+    <img class="card-img-top ad-zoom img-fluid" style="height: 190px" src="images/the2.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Kamat Yatri Nivas</h5>
 
     </div>
   </div>
   <div class="card" style="overflow: hidden;">
-    <img class="card-img-top ad-zoom" style="height: 190px" src="images/index-img6.jpeg" alt="Card image cap">
+    <img class="card-img-top ad-zoom" style="height: 190px" src="images/the3.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Prithvi Gardens</h5>
  
     </div>
   </div>
 
-<div class="card zoom" style="overflow: hidden;">
-    <img class="card-img-top img-fluid " style="height: 190px" src="images/index-img6.jpeg" alt="Card image cap">
+<div class="card" style="overflow: hidden;">
+    <img class="card-img-top ad-zoom" style="height: 190px" src="images/the4.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Akshay Inn</h5>
-     </div>
+      <h5 class="card-title">Prithvi Gardens</h5>
+ 
+    </div>
   </div>
 
   </div>
