@@ -53,25 +53,13 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-
-
-        <div class="content text-center col-lg-12 d-none d-lg-block">
+  <div class="content text-center col-lg-12 d-none d-lg-block">
        <h3>BEST DEALS FOR BETTER EXPERIENCES</h3>
     <p>Quintessentially Indian in its fabric, recognized for delivering a unique flavour and tradition of hospitality in a refreshingly modern way to create unique experiences and lifelong memories.</p>
 
   </div>
   </div>
 </div>
-
-
-
-
-
-  
-
- 
-
-
 <div class="container mt-3">
 <div class="row" >
 
@@ -133,26 +121,18 @@
 <div class="container mt-5">
 <h3> Our Partners</h3>
 </div>
-
 <div class="container mt-5">
 <div class="row">
-
   <div class="col-md-4">
 <div class="card" style="width: 18rem;">
    <img class="card-img-top" style="width: 100%; height: 50%" src="images/index-img15.jpg" alt="Card image cap">
  </div>
 </div>
-
-    
-
   <div class="col-md-4">
   <img style="width: 180px; height: 250px" src="images/index-img16.jpg" >
 </div>
 </div>
 </div>
-
-
-
   <div class="container mt-5 text-center">
 <h3> Popular in Hubli and Dharwad</h3>
 </div>
@@ -166,31 +146,27 @@
   <div class="card">
     
     <img  class="card-img-top zoom"  src="images/index-img17.jpg"  alt="Card image cap">
-    <div class="card-body">
+    <div class="card-body" style="z-index: 5;">
       <h5 class="card-title">Denissons Hotel</h5>
    </div>
     </div>
   
   <div class="card">
-     <div >
     <img class="card-img-top zoom" src="images/index-img20.jpg" alt="Card image cap">
-    </div>
-    <div class="card-body">
-    
-      <h5 class="card-title">The Verda Dwarwata</h5>
-
+    <div class="card-body" style="z-index: 5;">
+        <h5 class="card-title">The Verda Dwarwata</h5>
     </div>
   </div>
   <div class="card">
     <img class="card-img-top zoom" src="images/index-img19.jpg" alt="Card image cap">
-    <div class="card-body">
+    <div class="card-body" style="z-index: 5;">
       <h5 class="card-title">Ananth Residency</h5>
      </div>
   </div>
 
 <div class="card">
     <img class="card-img-top zoom"  src="images/index-img26.jpg" alt="Card image cap">
-    <div class="card-body">
+    <div class="card-body" style="z-index: 5;">
       <h5 class="card-title">Hotel Naveen</h5>
      </div>
   </div>
@@ -201,28 +177,28 @@
 <div class="card-deck">
   <div class="card">
     <img class="card-img-top zoom" style="height: 190px" src="images/index-img18.jpeg" alt="Card image cap">
-    <div class="card-body">
+    <div class="card-body" style="z-index: 5;">
       <h5 class="card-title">The Hans Hotel</h5>
    
     </div>
   </div>
   <div class="card">
     <img class="card-img-top zoom" style="height: 190px" src="images/index-img21.jpg" alt="Card image cap">
-    <div class="card-body">
+    <div class="card-body" style="z-index: 5;">
       <h5 class="card-title">Clarks Inn</h5>
 
     </div>
   </div>
   <div class="card">
     <img class="card-img-top zoom" style="height: 190px" src="images/index-img22.jpg" alt="Card image cap">
-    <div class="card-body">
+    <div class="card-body" style="z-index: 5;">
       <h5 class="card-title">The President Hotel</h5>
      </div>
   </div>
 
 <div class="card">
     <img class="card-img-top zoom" style="height: 190px" src="images/index-img27.jpg" alt="Card image cap">
-    <div class="card-body">
+    <div class="card-body" style="z-index: 5;">
       <h5 class="card-title">Parkview Inn</h5>
      </div>
   </div>
@@ -233,21 +209,21 @@
      <div class="card-deck">
   <div class="card">
     <img class="card-img-top zoom" style="height: 190px" src="images/index-img23.jpg" alt="Card image cap">
-    <div class="card-body">
+    <div class="card-body" style="z-index: 5;">
       <h5 class="card-title">Mandar Regency</h5>
    
     </div>
   </div>
   <div class="card">
     <img class="card-img-top zoom" style="height: 190px" src="images/index-img24.jpg" alt="Card image cap">
-    <div class="card-body">
+    <div class="card-body" style="z-index: 5;">
       <h5 class="card-title">Kamat Yatri Nivas</h5>
 
     </div>
   </div>
   <div class="card">
     <img class="card-img-top zoom" style="height: 190px" src="images/index-img25.jpg" alt="Card image cap">
-    <div class="card-body">
+    <div class="card-body" style="z-index: 5;">
       <h5 class="card-title">Prithvi Gardens</h5>
  
     </div>
@@ -255,7 +231,7 @@
 
 <div class="card">
     <img class="card-img-top zoom" style="height: 190px" src="images/index-img28.jpg" alt="Card image cap">
-    <div class="card-body">
+    <div class="card-body" style="z-index: 5;">
       <h5 class="card-title">Akshay Inn</h5>
      </div>
   </div>
@@ -273,10 +249,6 @@
   </a>
 </div>
 </div>
-
-
-
- 
 
   <!-- End coding from here -->
   <!--footer-->
