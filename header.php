@@ -11,7 +11,15 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-     <li class="nav-item dropdown ml-3">
+      <li class="nav-item ml-4">
+        <a class="nav-link" href="#" style="color:#fff;">Party Booking <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item ml-4">
+        <a class="nav-link" href="#" style="color:#fff;">+91 8855472364</a>
+      </li>
+    </ul>
+     <form class="form-inline my-2 my-lg-0 ml-3">
+      <div class="nav-item dropdown ml-3">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:#fff;">
           Location
         </a>
@@ -19,21 +27,13 @@
           <a class="dropdown-item" href="#">Dharwad</a>
             <a class="dropdown-item" href="#">Hubli</a>
         </div>
-      </li>
-      <form class="form-inline my-2 my-lg-0 ml-3">
+      </div>
       <input class="form-control mr-sm-2" type="search" placeholder="Area,Location,etc..." aria-label="Search" style="width:100; display:inline-block">
       <button class="btn btn-light my-2 my-sm-0" type="submit">Search</button>
-    </form>
-      <li class="nav-item ml-4">
-        <a class="nav-link" href="#" style="color:#fff;">Party Booking <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item ml-4">
+      <div class="nav-item ml-4">
         <a class="nav-link" href="#" style="color:#fff;" data-toggle="modal" data-target="#exampleModal">Login</a>
-      </li>
-      <li class="nav-item ml-4">
-        <a class="nav-link" href="#" style="color:#fff;">+91 8855472364</a>
-      </li>
-    </ul>
+      </div>
+    </form>
   </div>
 </nav>
 
