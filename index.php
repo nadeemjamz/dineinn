@@ -60,6 +60,7 @@
   </div>
   </div>
 </div>
+
 <div class="container mt-3">
 <div class="row" >
 
@@ -82,7 +83,7 @@
   </div>
   <div class="card-body">
     
-      <a href="#" style="text-decoration: none;"><button type="button" class="btn btn-danger btn-lg btn-block">VEG / NON-VEG</button></a>
+      <a href="non-veg.php" style="text-decoration: none;"><button type="button" class="btn btn-danger btn-lg btn-block">VEG / NON-VEG</button></a>
   </div>
 </div>
 </div>
