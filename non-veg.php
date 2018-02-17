@@ -9,62 +9,7 @@
     <?php include_once "styles.php"; ?>
     <!--styles css--> 
     <style type="text/css">
-      .card {
-    box-shadow: 0px 0px 0px grey;
-    border-radius: 0px;
-
-}
-.card:hover {
-    box-shadow: 2px 2px 20px grey;
-}
-a:hover{
-  text-decoration: none;
-}
-p{
-  font-size: 14px;
-  line-height: 7px;
-}
-
-
-
-* {
-  box-sizing: border-box;
-}
-
-#myInput {
-  background-image: url('/css/searchicon.png');
-  background-position: 10px 12px;
-  background-repeat: no-repeat;
-  width: 100%;
-  font-size: 16px;
-/*  padding: 12px 20px 12px 40px;*/
-  border: 1px solid #ddd;
-  margin-bottom: 12px;
-}
-
-#myUL {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-#myUL li a {
-  border: 1px solid #ddd;
-  margin-top: -1px; / Prevent double borders /
-  background-color: #f6f6f6;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  color: black;
-  display: block
-}
-
-#myUL li a:hover:not(.header) {
-  background-color: #eee;
-}
-
-
-
+   
     </style>
   </head>
   <body style="background-color:#F4F4F4;">
@@ -79,8 +24,8 @@ p{
   </div> -->
 <!--   <h1> Non-Veg </h1> -->
   <div class="row">
-    <div class="col-lg-3 col-md-3 col-sm-6">
-      <div class="jumbotron" style="background-color: #DCDCDC; margin-top: 39px; height: 1000px;" >
+    <div class="col-md-3  ">
+      <div class="jumbotron jumbo-m">
         <h4>Quick Filters</h4>
         <input type="Search" name="" placeholder="Search"><br>
         <input type="checkbox" name="">50% OFF Food<br>
@@ -90,16 +35,16 @@ p{
         <a href="#"><h5>show more</h5></a>
         <hr>
     <h4>Localities & Area</h4>
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name" style="height: 35px;">
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name" >
 
-<ul id="myUL" style="line-height: 10px;">
-  <li><a href="#">Adele</a></li>
-  <li><a href="#">Agnes</a></li>
+<ul id="myUL">
+  <li><a class="decoration" href="#">Adele</a></li>
+  <li><a class="decoration" href="#">Agnes</a></li>
 
-  <li><a href="#">Billy</a></li>
-  <li><a href="#">Bob</a></li>
+  <li><a class="decoration" href="#">Billy</a></li>
+  <li><a class="decoration" href="#">Bob</a></li>
 
-<li><a href="#" data-toggle="modal" data-target="#myModal" style="color: blue;">Show More...</a></li>
+<li><a class="decoration" href="#" data-toggle="modal" data-target="#myModal">Show More...</a></li>
  
 </ul>
 <hr>
@@ -110,7 +55,7 @@ p{
         <input type="checkbox" name="">Breakfast<br>
         <input type="checkbox" name="">Casual Dining<br>
         <input type="checkbox" name="">Bill Upload
-        <a href="#"><h5>show more</h5></a>
+        <a class="decoration" href="#"><h5>show more</h5></a>
 
 <div class="container">
   <!-- The Modal -->
@@ -122,7 +67,7 @@ p{
         <div class="modal-header">
           <h6 class="modal-title">Localities & Area</h6>
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name" style="height: 30px; width: 70%; margin-left: 20px;">
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name" >
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         
@@ -131,28 +76,28 @@ p{
               <div class="container">
     <div class="row">
       <div class="col-md-3">
-        <a href="#"><p>Lorem Ipsem</p></a>
-        <a href="#"><p>Lorem Ipsem</p></a>
-        <a href="#"><p>Lorem Ipsem</p></a>
-        <a href="#"><p>Lorem Ipsem</p></a>
+        <a class="decoration" href="#"><p class="lines">Lorem Ipsem</p></a>
+        <a class="decoration" href="#"><p class="lines">Lorem Ipsem</p></a>
+        <a class="decoration" href="#"><p class="lines">Lorem Ipsem</p></a>
+        <a class="decoration" href="#"><p class="lines">Lorem Ipsem</p></a>
       </div>
       <div class="col-md-3">
-        <a href="#"><p>Lorem Ipsem</p></a>
-        <a href="#"><p>Lorem Ipsem</p></a>
-        <a href="#"><p>Lorem Ipsem</p></a>
-        <a href="#"><p>Lorem Ipsem</p></a>
+        <a class="decoration" href="#"><p class="lines">Lorem Ipsem</p></a>
+        <a class="decoration" href="#"><p class="lines">Lorem Ipsem</p></a>
+        <a class="decoration" href="#"><p class="lines">Lorem Ipsem</p></a>
+        <a class="decoration" href="#"><p class="lines">Lorem Ipsem</p></a>
       </div>
       <div class="col-md-3">
-        <a href="#"><p>Lorem Ipsem</p></a>
-        <a href="#"><p>Lorem Ipsem</p></a>
-        <a href="#"><p>Lorem Ipsem</p></a>
-        <a href="#"><p>Lorem Ipsem</p></a>
+        <a class="decoration" href="#"><p class="lines">Lorem Ipsem</p></a>
+        <a class="decoration" href="#"><p class="lines">Lorem Ipsem</p></a>
+        <a class="decoration" href="#"><p class="lines">Lorem Ipsem</p></a>
+        <a class="decoration" href="#"><p class="lines">Lorem Ipsem</p></a>
       </div>
       <div class="col-md-3">
-        <a href="#"><p>Lorem Ipsem</p></a>
-        <a href="#"><p>Lorem Ipsem</p></a>
-        <a href="#"><p>Lorem Ipsem</p></a>
-        <a href="#"><p>Lorem Ipsem</p></a>
+        <a class="decoration" href="#"><p class="lines">Lorem Ipsem</p></a>
+        <a class="decoration" href="#"><p class="lines">Lorem Ipsem</p></a>
+        <a class="decoration" href="#"><p class="lines">Lorem Ipsem</p></a>
+        <a class="decoration" href="#"><p class="lines">Lorem Ipsem</p></a>
       </div>
     </div>
     </div>
@@ -167,91 +112,95 @@ p{
     </div>
   </div>
      
-    <div class="col-lg-9 col-md-9 col-sm-6" style="margin-top: 40px;">
-     <div class="row" style="width: 51.5rem; height: 213px; background-image: url('images/ppp.png'); border-radius: 4px;">
-      <div class="btn btn-danger" style="height: 40px; margin-top: 85px; margin-left: 70px;">Know more</div>
-      <footer style="background-color: red; height: 35px; margin-top: 55px;" class="form-control text-white text-center">Get 100% cashback on booking fee powered by @altaf</footer>
+    <div class="col-md-9  offer">
+     <div class="row offer-row" style="background-image: url('images/ppppp.jpg'); width: 100%; ">
+      <div class="btn btn-danger1" ></div>
+      <footer  class="form-control text-white text-center sub-footer">Get 100% cashback on booking fee powered by @altaf</footer>
       </div><br>
       <div class="row" style="margin-top: 0px !important;">
 
-      <div id="carouselExampleControls0" class="carousel slide" data-ride="carousel" style="width:280px; height: 269px;">
+      <div id="carouselExampleControls0" class="carousel slide carousel-m" data-ride="carousel" >
   <div class="carousel-inner"> 
     <div class="carousel-item active">
-      <img class="d-block" src="images/the4.jpg" alt="First slide" style="width:100%;">
+      <img class="d-block" src="images/sl1.jpg" alt="First slide" >
     </div>
     <div class="carousel-item">
-      <img class="d-block" src="images/the10.jpg" style="width:100%;" alt="Second slide">
+      <img class="d-block" src="images/sl2.jpg"  alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block" src="images/img2.jpg" alt="Third slide" style="width:100%;">
+      <img class="d-block" src="images/sl3.jpg" alt="Third slide" >
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls0" role="button" data-slide="prev" style="padding-bottom: 50px;">
+  <a class="carousel-control-prev cantrols" href="#carouselExampleControls0" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleControls0" role="button" data-slide="next" style="padding-bottom: 50px;">
+  <a class="carousel-control-next cantrols" href="#carouselExampleControls0" role="button" data-slide="next" >
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
 </div>    
-    <div class="card" style="width: 34rem; height: 213px;">
+    <div class="card nonveg-card" >
   
   <div class="card-body">
     <h5 class="card-title">The London Curry House</h5>
   <!--   <div class="jumbotron" style=" height:1px; background-color:red; position: absolute; overflow-wrap: normal; margin-left: 440px; margin-bottom: 60px;">
   4.6   
 </div> -->
+<<<<<<< HEAD
     <p class="card-text"><a href=""><font color="gray"> Race Course Road,</font></a><a href="#"><font color="gray"> West Bangalore</font></a></p>
     <p class="card-text"><font color="gray"> Cost for two :</font>1500<font color="gray">(approx)|</font><a href="#"><font color="black"> view menu</font></a></p>
        <p class="card-text"><font color="gray"> Cuisine :</font><a href="#"> Chinese</a>,<a href=""> Continental</a>,<a href=""> Modern Indian</a>,<a href=""> North Indian</a>,<a href=""> Pizza</a></p>
+=======
+    <p class="card-text lines"><a href=""><font color="gray"> Race Course Road,</font></a><a href=""><font color="gray"> West Bangalore</font></a></p>
+    <p class="card-text lines"><font color="gray"> Cost for two :</font>1500<font color="gray">(approx)|</font><a href="#"><font color="black"> view menu</font></a></p>
+       <p class="card-text lines"><font color="gray"> Cuisine :</font><a class="decoration" href="" style="line-height: 15px;"> Chinese</a>,<a class="decoration" style="line-height: 15px;" href=""> Continental</a>,<a style="line-height: 15px;" class="decoration" href=""> Modern Indian</a>,<a style="line-height: 15px;" class="decoration" href=""> North Indian</a>,<a style="line-height: 15px;" class="decoration" href=""> Pizza</a></p>
+>>>>>>> 17962e0389ccc8a9cb9ee05c9d6d9d52ebab6d27
   <!--      <button class="btn-success" style="height: 22px;">UPLOAD BILL</button><input type="text" name="" placeholder="Additional 20% off on uploading your bill via Dineout app (upto Rs. 200)" readonly="" style="width: 400px; height: 22px;"/> -->
-     <div style="background-color: green; font-size: 13px; margin-bottom: 15px;">UPLOAD BILL<font color="white">  Additional 20% off on uploading your bill via Dineout app (upto Rs. 200)</font></div>
+     <div class="Upload">UPLOAD BILL<font color="white">  Additional 20% off on uploading your bill via Dineout app (upto Rs. 200)</font></div>
         
 
-<div class="row" style="padding-left: 15px;">
-        <div style="border-style:groove; width: 71%;"><font color="green">&nbsp;&nbsp;&nbsp;GIRF: Flat 50% Off Food from 1st - 28th Feb</font></div><button class="btn-danger" style="float: right; margin-left: ;">RESERVE FOR FREE</button>
+<div class="row reserve" style="">
+        <div class="offer-banner" style=""><font color="green">&nbsp;&nbsp;&nbsp;GIRF: Flat 50% Off Food from 1st - 28th Feb</font>
         </div>
-  </div>
+        <button class="btn-danger btn-reserve">RESERVE FOR FREE</button>
 </div>
-
-
-
-    
+  </div>
+</div>    
   </div>
   <div class="row">
-      <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel" style="width:280px; height: 269px;">
+      <div id="carouselExampleControls1" class="carousel slide carousel-m" data-ride="carousel" >
   <div class="carousel-inner"> 
     <div class="carousel-item active">
-      <img class="d-block" src="images/the10.jpg" alt="First slide" style="width:100%;">
+      <img class="d-block" src="images/sl1.jpg" alt="First slide" >
     </div>
     <div class="carousel-item">
-      <img class="d-block" src="images/img4.jpg" style="width:100%;" alt="Second slide">
+      <img class="d-block" src="images/sl3.jpg"  alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block" src="images/the4.jpg" alt="Third slide" style="width:100%;">
+      <img class="d-block" src="images/sl2.jpg" alt="Third slide" >
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev" style="padding-bottom: 50px;">
+  <a class="carousel-control-prev cantrols" href="#carouselExampleControls1" role="button" data-slide="prev" >
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next" style="padding-bottom: 50px;">
+  <a class="carousel-control-next cantrols" href="#carouselExampleControls1" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
 </div>    
-    <div class="card" style="width: 34rem; height: 213px;">
+    <div class="card nonveg-card" >
   
   <div class="card-body">
     <h5 class="card-title">The London Curry House</h5>
-    <p class="card-text"><a href=""><font color="gray"> Race Course Road,</font></a><a href=""><font color="gray"> West Bangalore</font></a></p>
-    <p class="card-text"><font color="gray"> Cost for two :</font>1500<font color="gray">(approx)|</font><a href="#"><font color="black"> view menu</font></a></p>
-       <p class="card-text"><font color="gray"> Cuisine :</font><a href=""> Chinese</a>,<a href=""> Continental</a>,<a href=""> Modern Indian</a>,<a href=""> North Indian</a>,<a href=""> Pizza</a></p>
+    <p class="card-text lines"><a href=""><font color="gray"> Race Course Road,</font></a><a href=""><font color="gray"> West Bangalore</font></a></p>
+    <p class="card-text lines"><font color="gray"> Cost for two :</font>1500<font color="gray">(approx)|</font><a href="#"><font color="black"> view menu</font></a></p>
+       <p class="card-text lines"><font color="gray"> Cuisine :</font><a class="decoration" href=""> Chinese</a>,<a class="decoration" href=""> Continental</a>,<a class="decoration" href=""> Modern Indian</a>,<a class="decoration" href=""> North Indian</a>,<a class="decoration" href=""> Pizza</a></p>
   <!--      <button class="btn-success" style="height: 22px;">UPLOAD BILL</button><input type="text" name="" placeholder="Additional 20% off on uploading your bill via Dineout app (upto Rs. 200)" readonly="" style="width: 400px; height: 22px;"/> -->
-     <div style="background-color: green; font-size: 13px; margin-bottom: 15px;">UPLOAD BILL<font color="white">  Additional 20% off on uploading your bill via Dineout app (upto Rs. 200)</font></div>
-       <div class="row" style="padding-left: 15px;">
-        <div style="border-style:groove; width: 71%;"><font color="green">&nbsp;&nbsp;&nbsp;GIRF: Flat 50% Off Food from 1st - 28th Feb</font></div><button class="btn-danger" style="float: right; margin-left: ;">RESERVE FOR FREE</button>
+     <div class="Upload">UPLOAD BILL<font color="white">  Additional 20% off on uploading your bill via Dineout app (upto Rs. 200)</font></div>
+       <div class="row reserve">
+        <div class="offer-banner"><font color="green">&nbsp;&nbsp;&nbsp;GIRF: Flat 50% Off Food from 1st - 28th Feb</font></div><button class="btn-danger btn-reserve" >RESERVE FOR FREE</button>
         </div>
   </div>
 </div>
@@ -260,38 +209,39 @@ p{
 
 
 
-<div id="carouselExampleControls2" class="carousel slide" data-ride="carousel" style="width:280px; height: 269px;">
+<div id="carouselExampleControls2" class="carousel slide carousel-m" data-ride="carousel" >
   <div class="carousel-inner"> 
     <div class="carousel-item active">
-      <img class="d-block" src="images/img5.jpg" alt="First slide" style="width:100%;">
+      <img class="d-block" src="images/sl2.jpg" alt="First slide" >
     </div>
     <div class="carousel-item">
-      <img class="d-block" src="images/img6.jpg" style="width:100%;" alt="Second slide">
+      <img class="d-block" src="images/sl1.jpg"  alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block" src="images/img7.jpg" alt="Third slide" style="width:100%;">
+      <img class="d-block" src="images/sl3.jpg" alt="Third slide" >
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev" style="padding-bottom: 50px;">
+  <a class="carousel-control-prev cantrols" href="#carouselExampleControls2" role="button" data-slide="prev" >
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next" style="padding-bottom: 50px;">
+  <a class="carousel-control-next cantrols"  href="#carouselExampleControls2" role="button" data-slide="next" >
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
 </div>    
-<div class="card" style="width: 34rem; height: 213px;">
+<div class="card nonveg-card" >
   
   <div class="card-body">
-    <h5 class="card-title">The London Curry House</h5>
-    <p class="card-text"><a href=""><font color="gray"> Race Course Road,</font></a><a href=""><font color="gray"> West Bangalore</font></a></p>
+    <h5 class="card-title lines">The London Curry House</h5>
+    <p class="card-text lines"><a href=""><font color="gray"> Race Course Road,</font></a><a href=""><font color="gray"> West Bangalore</font></a></p>
     <p class="card-text"><font color="gray"> Cost for two :</font>1500<font color="gray">(approx)|</font><a href="#"><font color="black"> view menu</font></a></p>
-       <p class="card-text"><font color="gray"> Cuisine :</font><a href=""> Chinese</a>,<a href=""> Continental</a>,<a href=""> Modern Indian</a>,<a href=""> North Indian</a>,<a href=""> Pizza</a></p>
+       <p class="card-text lines"><font color="gray"> Cuisine :</font><a class="decoration" href=""> Chinese</a>,<a class="decoration" href=""> Continental</a>,<a class="decoration" href=""> Modern Indian</a>,<a class="decoration" href=""> North Indian</a>,<a class="decoration" href=""> Pizza</a></p>
   <!--      <button class="btn-success" style="height: 22px;">UPLOAD BILL</button><input type="text" name="" placeholder="Additional 20% off on uploading your bill via Dineout app (upto Rs. 200)" readonly="" style="width: 400px; height: 22px;"/> -->
-     <div style="background-color: green; font-size: 13px; margin-bottom: 15px; ">UPLOAD BILL<font color="white">  Additional 20% off on uploading your bill via Dineout app (upto Rs. 200)</font></div>
-<div class="row" style="padding-left: 15px;">
-        <div style="border-style:groove; width: 71%;"><font color="green">&nbsp;&nbsp;&nbsp;GIRF: Flat 50% Off Food from 1st - 28th Feb</font></div><button class="btn-danger" style="float: right; margin-left: ;">RESERVE FOR FREE</button>
+     <div class="Upload">UPLOAD BILL<font color="white">  Additional 20% off on uploading your bill via Dineout app (upto Rs. 200)</font></div>
+<div class="row reserve" >
+        <div class="offer-banner"><font color="green">&nbsp;&nbsp;&nbsp;GIRF: Flat 50% Off Food from 1st - 28th Feb</font></div>
+        <button class="btn-danger btn-reserve" >RESERVE FOR FREE</button>
         </div>       
   </div>
 </div>

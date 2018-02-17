@@ -272,6 +272,7 @@ p{
   </a>
 </div>    
     <div class="card nonveg-card">
+      
   
   <div class="card-body">
     <h5 class="card-title">The London Curry House</h5>
