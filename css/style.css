@@ -19,15 +19,12 @@
       color: black;
     }
 
-<<<<<<< HEAD
- /*   ul > li > a {
-=======
-/*
+
     ul > li > a {
->>>>>>> a44b3545e4d9edde9ac58dcc6eb1e7c1325368f5
+
       font-weight: bold;
     }
-*/
+
 
     .col-md-4 > a {  font-weight: bold; 
       text-decoration: none;

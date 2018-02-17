@@ -73,9 +73,7 @@ p{
 
 
   <!-- Start coding from here -->
-<<<<<<< HEAD
-    
-=======
+
 <div class="container" >
 <!--   <div class="row" style="background-image: url('images/ccc.jpeg');">
   </div> -->
@@ -338,7 +336,7 @@ btn.onclick = function() {
 span.onclick = function() {
     modal.style.display = "none";
 }
->>>>>>> a78b48964c87a9acfe4a7a9b8adf65f43711b845
+
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
