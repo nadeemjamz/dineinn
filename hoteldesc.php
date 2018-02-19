@@ -90,8 +90,8 @@ style="background-color:#f7A8A4;"
     <img src="images/the2.jpg">
   </div>
     
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
+  <a class="prev" onclick="plusSlides(-1)" style="margin-top: 2%; ">❮</a>
+  <a class="next" onclick="plusSlides(1)" style="margin-top: 2%; ">❯</a>
 
   <div class="caption-container">
     <p id="caption"></p>

@@ -19,16 +19,17 @@
       color: black;
     }
 
-/*
+
     ul > li > a {
+
       font-weight: bold;
     }
-*/
+
 
     .col-md-4 > a {  font-weight: bold; 
       text-decoration: none;
 
-    }
+    }*/
 
 /*
 .navbar ul li:first-child { float: left; }

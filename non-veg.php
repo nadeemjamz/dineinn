@@ -18,6 +18,7 @@
 
 
   <!-- Start coding from here -->
+
 <div class="container" >
 <!--   <div class="row" style="background-image: url('images/ccc.jpeg');">
   </div> -->
@@ -146,9 +147,14 @@
   <!--   <div class="jumbotron" style=" height:1px; background-color:red; position: absolute; overflow-wrap: normal; margin-left: 440px; margin-bottom: 60px;">
   4.6   
 </div> -->
-    <p class="card-text lines"><a href=""><font color="gray"> Race Course Road,</font></a><a href=""><font color="gray"> West Bangalore</font></a></p>
+
+    <p class="card-text lines"><a href=""><font color="gray"> Race Course Road,</font></a><a href="#"><font color="gray"> West Bangalore</font></a></p>
     <p class="card-text lines"><font color="gray"> Cost for two :</font>1500<font color="gray">(approx)|</font><a href="#"><font color="black"> view menu</font></a></p>
+      
+
+   
        <p class="card-text lines"><font color="gray"> Cuisine :</font><a class="decoration" href="" style="line-height: 15px;"> Chinese</a>,<a class="decoration" style="line-height: 15px;" href=""> Continental</a>,<a style="line-height: 15px;" class="decoration" href=""> Modern Indian</a>,<a style="line-height: 15px;" class="decoration" href=""> North Indian</a>,<a style="line-height: 15px;" class="decoration" href=""> Pizza</a></p>
+
   <!--      <button class="btn-success" style="height: 22px;">UPLOAD BILL</button><input type="text" name="" placeholder="Additional 20% off on uploading your bill via Dineout app (upto Rs. 200)" readonly="" style="width: 400px; height: 22px;"/> -->
      <div class="Upload">UPLOAD BILL<font color="white">  Additional 20% off on uploading your bill via Dineout app (upto Rs. 200)</font></div>
         
@@ -279,6 +285,7 @@ btn.onclick = function() {
 span.onclick = function() {
     modal.style.display = "none";
 }
+
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
