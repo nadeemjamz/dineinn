@@ -6,10 +6,6 @@
     font-weight: bold;
 }
 
-
- /* .jumbotron:hover {
-   background-color: dimgrey;
-    }*/
     .snl {
       color: white;
       font-size:36px;
@@ -29,16 +25,7 @@
     .col-md-4 > a {  font-weight: bold; 
       text-decoration: none;
 
-    }*/
+    }
 
-/*
-.navbar ul li:first-child { float: left; }
-
-.navbar ul li { 
-  list-style:none;
-  margin:10px;
-  float: right; 
-}
-*/
 
     

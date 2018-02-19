@@ -61,7 +61,11 @@
   </div>
 </div>
 
-<div class="container mt-3">
+<div class="container my-5">
+<a href="listhotel.php" style="text-decoration: none;"><button type="button" class="btn btn-warning btn-lg btn-block">List of Hotel</button></a>
+</div>
+
+<div class="container">
 <div class="row" >
 
   <div class="col-md-3">
@@ -71,7 +75,7 @@
   </div>
   <div class="card-body">
     
-      <a href="#" style="text-decoration: none;"><button type="button" class="btn btn-danger btn-lg btn-block">VEGETERIAN</button></a>
+      <a href="veg.php" style="text-decoration: none;"><button type="button" class="btn btn-danger btn-lg btn-block">VEGETERIAN</button></a>
   </div>
 </div>
 </div>
