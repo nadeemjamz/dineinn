@@ -17,7 +17,6 @@
 
   <!-- Start coding from here -->
 
-
 <div class="container-fluid">
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">

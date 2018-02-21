@@ -11,13 +11,13 @@
 </div>
 
 
-        <center class="text-white">
+        <div class="text-white text-center">
                 <p>Social Media</p>
             <a href="#" class="fa fa-facebook-square mr-4" style="font-size:36px;text-decoration:none;color: white;"> </a>
             <a href="#" class="fa fa-twitter-square mr-4" style="font-size:36px;text-decoration:none;color: white;"> </a> 
             <a href="#" class="fa fa-instagram" style="font-size:36px;text-decoration:none;color: white;" ></a> 
             <p> &copy;2018 DineInn. All Rights Reserved.</p>
-             </center>
+             </div>
 </div>
     
 </div>
